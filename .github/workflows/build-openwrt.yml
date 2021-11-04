@@ -20,9 +20,9 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/Z-Prion/openwrt-origin.git
+  REPO_URL: https://github.com/coolsnowwolf/openwrt.git
   # https://github.com/Z-Prion/lede
-  REPO_BRANCH: openwrt-19.07
+  REPO_BRANCH: lede-17.01
   # master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
